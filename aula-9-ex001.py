@@ -1,2 +1,5 @@
 frase = 'Curso em Vídeo Python'
-print(frase.upper().count('O'))
+
+frase = frase.replace('Python', 'Android')
+
+print(frase)
